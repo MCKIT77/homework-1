@@ -4,18 +4,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* selects body and changes background color */
 body {
     background-color: #d9dcd6;
 }
 
-header {
-    position: relative;
-}
-nav {
-    position: sticky;
-}
-
+/* selects class header and changes padding, font-family, background-color, and font color  */
 .header {
     
     padding: 20px;
@@ -23,16 +17,16 @@ nav {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* selects element with header class also with h1 inside it */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* selects element with header class also with h1 inside it also with .seo class inside it */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* header class with nav inside  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,25 +34,25 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* styles ul inside nav inside .header class , removes the list style like the dots */
 .header nav ul {
     list-style-type: none;
 }
-
+/* selects the li inside the ul,nav,.header and changes display to inline-block, sets margin left to 25px */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* selects the anchor tags and changes color of text and removes the underline by using text decoration: none */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* changes font size of p tags */
 p {
     font-size: 16px;
 }
-
+/* using hero class to display background image, then using backgroun-postion:center and background size: cover, the image is the right size */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,23 +61,24 @@ p {
     background-size: cover;
     background-position: center; 
 }
-
+/*selects class .float-left. float: left changes position of image to left side of conatiner */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/*selects class .float-right. float: right changes position of image to right side of conatiner */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* selects content class and sets width display and margin  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* selects benefits class , setting margin, padding, width, height, font-family, background-color, and clear which changes float behavior*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,55 +89,59 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* selects benefit-llead class and changes font color and margin-bottom */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* selects benefit-brand class and changes font color and margin-bottom */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* selects benefit-cost class and changes font color and margin-bottom */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* selects h3 inside benefit-lead class and aligns text in center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* selects h3 inside benefit-brand class and aligns text in center */
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* selects h3 inside benefit-cost class and aligns text in center */
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*selects img inside benefit-lead class and setting display margin and max-width  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*selects img inside benefit-brand class and setting display margin and max-width  */
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*selects img inside benefit-cost class and setting display margin and max-width  */
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* selecting search-engine-optimization class and setting margin-bottom, padding, height, font-family, background-color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +150,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* selecting class .online-reputation-management and setting margin-bottom, padding, height, font-family, background-color,*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +159,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* selecting .social-media-marketing ckass and adding style */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,41 +168,43 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* selecting the img inside the class .search-engine-optimization */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* selecting the img inside the class .online-reputation-management */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* selecting the img inside the class .social-media-marketing img */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* selecting the h2 inside of the class adding margin and font size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* selecting the h2 inside of the class adding margin and font size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* selecting the h2 inside of the class adding margin and font size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* selecting footer class and adding padding font family and text align */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* selecting the h2 inside the footer and changing the font size */
 .footer h2 {
     font-size: 20px;
 }
